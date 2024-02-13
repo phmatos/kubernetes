@@ -7,7 +7,7 @@ firefly-db:
     pullPolicy: IfNotPresent
 
   storage:
-    class: nfs-client
+    class: gp2
     accessModes: ReadWriteMany
     dataSize: 1Gi
 
