@@ -35,14 +35,14 @@ config:
     # DB_USERNAME: firefly
     DEFAULT_LANGUAGE: "en_US"
     DEFAULT_LOCALE: "equal"
-    TZ: "Europe/Amsterdam"
+    TZ: "America/Sao_Paulo"
     TRUSTED_PROXIES: "**"
 
 # -- Create a new Secret from values file to store sensitive environment variables. Make sure to keep your secrets encrypted in the repository! For example, you can use the 'helm secrets' plugin (https://github.com/jkroepke/helm-secrets) to encrypt and manage secrets. If the 'config.existingSecret' value is set, a new Secret will not be created.
 secrets:
   env:
-    APP_PASSWORD: "CHANGE_ENCRYPT_ME"
-    DB_PASSWORD: "CHANGE_ENCRYPT_ME"
+    APP_PASSWORD: "wvltZyoG7I5CWxeh2dbtxznvPTOUCLnl"
+    DB_PASSWORD: "asd123"
   # -- Statically set the APP_KEY in case this is desired over the autogeneration. Should be a random 32-character string.
   # -- Can be generated using: `cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`
   # appKey: "CHANGE_ME"
